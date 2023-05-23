@@ -103,9 +103,8 @@ nf = LoadActivityNetflix(
     webdriver_path=webdriver_path
 )
 
-nf.login_user()
-
-nf.dl_activity()
+# nf.login_user()
+# nf.dl_activity()
 
 # Schließe den Webdriver und beende den Browserprozess
 file_list = os.listdir(download_path)
